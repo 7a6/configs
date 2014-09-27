@@ -6,8 +6,8 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 colorscheme gruvbox
 set bg=dark
-:set guioptions-=T
-:set guioptions-=m
+set guioptions-=T
+set guioptions-=m
 set t_Co=256
 syntax on
 set tabstop=4
