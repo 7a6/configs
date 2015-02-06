@@ -20,6 +20,7 @@ set nu!
 set incsearch
 set ignorecase
 set laststatus=2
+set whichwrap+=<,>,h,l,[,]
 nnoremap <C-H> :Hexmode<CR>
 inoremap <C-H> <Esc>:Hexmode<CR>
 vnoremap <C-H> :<C-U>Hexmode<CR>
